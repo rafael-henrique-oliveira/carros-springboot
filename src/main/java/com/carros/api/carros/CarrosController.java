@@ -1,4 +1,4 @@
-package com.carros.api;
+package com.carros.api.carros;
 
 import com.carros.domain.Carro;
 import com.carros.domain.CarroService;
@@ -11,7 +11,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/carros")
